@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="luffysayhello">
+    <output-path>$PROJECT_DIR$/out/artifacts/luffysayhello</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="luffysayhello/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="luffysayhello" />
+        </element>
+      </element>
+      <element id="library" level="project" name="servlet-api" />
+    </root>
+  </artifact>
+</component>
